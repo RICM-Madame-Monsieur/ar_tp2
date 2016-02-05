@@ -1,0 +1,2 @@
+grant codeBase "file:out/production/ar_tp2_rmi/com/mnogueron/ar"{ permission java.net.SocketPermission "*:1024-65535","connect,accept,listen,resolve";
+				permission java.net.SocketPermission "*:80","connect";};
